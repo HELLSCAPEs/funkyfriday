@@ -13,11 +13,6 @@
 -- you need the following functions
 -- loadstring, HttpGet, getgc, getloadedmodules, getconnections, and set_thread_identity or whatever you call it
 
-if not loadstring, loadstring(game:HttpGet()), getgc, getloadedmodules, getconnections, set_thread_identity then
-    local victimToKick = game.Players.LocalPlaye
-    victimToKick:Kick("get an better exploit noob (USE FLUXUS OR SYNAPSE!)")
-end
-
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/uwuware-ui/main/main.lua"))()
 
 local framework, scrollHandler
